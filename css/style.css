@@ -89,6 +89,7 @@ img {
 .introducao-bg {
   background-color: #000;
   color: white;
+  box-shadow: inset 0 -120px;
 }
 .introducao {
   display: grid;
@@ -100,20 +101,25 @@ img {
   margin: 0 auto;
 }
 
-.introducao-conteudo{
-  padding-bottom: 80px;
+.introducao-conteudo {
+  padding-bottom: 200px;
   align-self: end;
 }
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
 
-.introducao h1{
+.introducao h1 {
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
 }
-.introducao h1 span{
+.introducao h1 span {
   color: #ffbb00;
 }
-.introducao p{
+.introducao p {
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.5;
@@ -122,15 +128,15 @@ img {
 .introducao a {
   display: inline-block;
   padding: 16px 32px;
-  background: linear-gradient(#FB0, #D2900A);
+  background: linear-gradient(#fb0, #d2900a);
   border-radius: 5px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: #332200;
   font-size: 18px;
   line-height: 1.33;
   font-weight: bold;
 }
-.introducao a:hover{
-  background: linear-gradient(#Ffb60d, #e59317)
+.introducao a:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }
