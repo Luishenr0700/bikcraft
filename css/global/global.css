@@ -12,10 +12,11 @@ h2,
 h3,
 h4,
 ul,
-p {
+p,
+blockquote {
   margin: 0px;
 }
-::selection{
+::selection {
   background-color: var(--cor-p1);
   color: var(--cor-p5);
 }
@@ -27,6 +28,6 @@ img {
   max-width: 100%;
   display: block;
 }
-img[src$=".jpg"]{
+img[src$=".jpg"] {
   border-radius: 5px;
 }
