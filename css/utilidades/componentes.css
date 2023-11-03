@@ -18,6 +18,7 @@
   transition: .2s;
   max-width: max-content;
   border: none; 
+  cursor: pointer;
 }
 .botao:hover {
   background: linear-gradient(#ffb60d, #cc8213);
